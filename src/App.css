@@ -1,0 +1,144 @@
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+
+body {
+  
+  
+ 
+  height: 100%; 
+  -webkit-text-size-adjust: 100%;
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: Poppins, sans-serif;
+  color: rgb(53, 56, 64);
+  box-sizing: border-box;
+  display: flex;
+  background-size: cover;
+  background-color: rgb(255, 255, 255);
+  background-position: center center;
+
+
+backdrop-filter: 10px;
+
+}
+.style2{
+margin-top: 2cm;
+-webkit-text-size-adjust: 100%;
+font-family: Poppins, sans-serif;
+box-sizing: border-box;
+line-height: 110%;
+font-weight: 600;
+color: rgb(4, 17, 29);
+margin: 0px;
+text-align: left;
+z-index: 2;
+font-size: 46px;
+max-width: 550px;
+}
+.card{
+
+margin: 10px;
+padding: 10px;
+background-color: teal;
+}
+.style3{
+
+  margin-top: 3cm;
+  
+ 
+  color: rgb(4, 17, 29);
+  margin: 0px;
+ 
+  font-weight: 70;
+  font-size: 20px;
+ 
+
+}
+.style5{
+  
+
+ 
+ 
+  font-family: Poppins, sans-serif;
+text-align: center;
+  display: inline-flex;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: 600;
+  margin-left: 13cm;
+  margin-top: 1cm;
+  color:rgb(4, 17, 29);
+
+}
+.style1{
+
+-webkit-text-size-adjust: 100%;
+font-size: 14px;
+line-height: 1.5;
+font-family: Poppins, sans-serif;
+color: rgb(53, 56, 64);
+box-sizing: border-box;
+display: flex;
+flex-direction: column;
+-webkit-box-align: center;
+align-items: left;
+margin-top: 1cm;
+margin-left: 1cm;
+
+padding: 30px 20px 20px;
+}
+.style4
+{
+
+
+ 
+  font-family: Poppins, sans-serif;
+
+  display: inline-flex;
+  flex-direction: row;
+ 
+ margin-left: 2cm;
+ 
+  font-size: 20px;
+
+}
+.style7
+{
+
+background-color: teal;
+
+width: 45%;
+height: 11cm;
+float:right;
+
+
+}
+.button-container{
+
+  -webkit-text-size-adjust: 100%;
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: Poppins, sans-serif;
+  color: rgb(53, 56, 64);
+  box-sizing: border-box;
+  margin-right: 20px;
+  margin-top: 1cm;
+
+}
+
+.hover{
+
+border: 1px solid black;
+
+}
