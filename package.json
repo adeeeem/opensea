@@ -1,7 +1,10 @@
 {
   "name": "my-app",
+  
   "version": "0.1.0",
-  "node": "14.17.6",
+  "engines": {
+    "node": "14.17.6"
+  },
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.4.1",
