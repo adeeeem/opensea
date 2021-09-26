@@ -5,11 +5,9 @@ import { Col, Row } from 'react-bootstrap';
 import './App.css';
 import Buton from './body';
 import Crd from './body2';
-import MediaCard from './body_cards';
 import Header from './header';
-import image from './images/harrypack-promocard.png';
-import image1 from './images/kinesis-promocard.png';
-import image2 from './images/nfh-promocard.png';
+import Slidr from './slider';
+
 
 function App() {
   let [hoverFlag, setHoverFlag] = useState(false);
@@ -17,6 +15,7 @@ function App() {
     console.log("Flag");
     setHoverFlag(!hoverFlag);
   }
+ 
   return (
     <>
       <Header />
@@ -31,7 +30,7 @@ function App() {
           </div>
         </Col>
         <Col >
-          <Crd onmouseover="dropshadow(4)"
+          <Crd 
           />
         </Col>
       </Row>
@@ -40,23 +39,12 @@ function App() {
           <a href="#" class="style4" > Get featured on the home page</a>
         </h1>
       </Row>
-      <h1 class="style5">Exclusive OpenSea drops</h1>
-      <Row>
-        <Col>
-          {hoverFlag ? (
-            <MediaCard onClick={() => shadows()} className="hover" image={image} dec=" Harry Pack" d=" Exploring a surel dream like dimension" color="puple"/>
-          ) : (
-            <MediaCard onClick={() => shadows()} image={image} dec=" Harry Pack" d=" Exploring a surel dream like dimension"  color="puple"/>
-          )}
+    <h1 class="style5">Exclusive OpenSea drops</h1>
 
-        </Col>
-        <Col>
-          <MediaCard image={image1} dec=" Non-Fungible Heroes" d="8888 heroes seeking to beguile and bewilder" color="pink" />
-        </Col>
-        <Col>
-          <MediaCard image={image2} dec=" Kenisis Art" d=" An experimental art studio exploring genrative motion" color="green"/>
-        </Col>
-      </Row>
+     <Slidr/>
+     
+    
+      
     </>
   );
 

@@ -5,7 +5,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import color  from '@mui/system';
+
 
 
 export default function MediaCard(props) {
@@ -20,16 +20,16 @@ export default function MediaCard(props) {
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div" align="center">
-         {props.dec}
+         {props.title}
         
         </Typography>
         <Typography variant="body2" color="text.secondary " align="center">
-        {props.d}
+        {props.desc}
         </Typography>
       </CardContent>
       <CardActions>
         
-        <Button size="small" align="center">Live</Button>
+      <Button variant="outlined" align="center" >live</Button>
       </CardActions>
     </Card>
   );
