@@ -1,0 +1,28 @@
+.za{
+margin-left: 3cm;
+padding-right: 3cm;
+
+right: 4cm;
+text-align: center;
+justify-content: center;
+}
+.mr-1
+{
+
+padding-right: 3cm;
+
+}
+.s{
+
+    padding-right: 10cm;
+    background-color: aliceblue;
+}
+.dark_color{
+    color: black !important;
+}
+.nav-link
+{
+font-family: Poppins, sans-serif;
+color: black;
+
+}
