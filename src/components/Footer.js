@@ -7,9 +7,9 @@ function Footer(props) {
     <Row>
 <Col >
 <h5>Stay in the loop </h5>
-<h6>
+<h7>
 Join our mailing list to stay in the loop with our newest feature releases,
- NFT drops, and tips and tricks for navigating OpenSea.</h6>
+ NFT drops, and tips and tricks for navigating OpenSea.</h7>
 </Col>
 <Col>
 <h5>Join the community</h5>
@@ -17,54 +17,55 @@ Join our mailing list to stay in the loop with our newest feature releases,
 
 
         </Row>
+        <div Class="f_lower_row">
         <Row>
         <Col>
         <h4> 
            OpenSea
         </h4>
-<h5>The world’s first and largest digital marketplace for 
+<h7>The world’s first and largest digital marketplace for 
 crypto collectibles and non-fungible tokens (NFTs).
- Buy, sell, and discover exclusive digital assets</h5>
+ Buy, sell, and discover exclusive digital assets</h7>
 </Col>
 <Col>
 <h5>Marketplace</h5>
 
-<h5>All NFTs</h5>
-<h5>New</h5>
-<h5>Art</h5>
-<h5>Music</h5>
-<h5>Domain Names</h5>
-<h5>Virtual Worlds</h5>
-<h5>Trading Cards</h5>
-<h5>Collectibles</h5>
-<h5>Sportsy</h5>
+<h6>All NFTs</h6>
+<h6>New</h6>
+<h6>Art</h6>
+<h6>Music</h6>
+<h6>Domain Names</h6>
+<h6>Virtual Worlds</h6>
+<h6>Trading Cards</h6>
+<h6>Collectibles</h6>
+<h6>Sportsy</h6>
 </Col>
 <Col>
 <h5>My Account</h5>
-<h5>Profile</h5>
-<h5>Favorites</h5>
-<h5>My Collections</h5>
-<h5>Settings</h5>
-<h5>Stats</h5>
-<h5>Rankings</h5>
-<h5>Activity</h5>
+<h6>Profile</h6>
+<h6>Favorites</h6>
+<h6>My Collections</h6>
+<h6>Settings</h6>
+<h6>Stats</h6>
+<h6>Rankings</h6>
+<h6>Activity</h6>
 </Col>
 <Col>
 <h5>Resources</h5>
-<h5>Help Center</h5>
-<h5>Platform Status</h5>
-<h5>Partners</h5>
-<h5>Gas-Free Marketplace</h5>
-<h5>Suggestions</h5>
-<h5>Discord Community</h5>
-<h5>Blog</h5>
-<h5>Docs</h5>
-<h5>Newsletter</h5>
+<h6>Help Center</h6>
+<h6>Platform Status</h6>
+<h6>Partners</h6>
+<h6>Gas-Free Marketplace</h6>
+<h6>Suggestions</h6>
+<h6>Discord Community</h6>
+<h6>Blog</h6>
+<h6>Docs</h6>
+<h6>Newsletter</h6>
 </Col>
 <Col>
 <h5>Company</h5>
-<h5>About</h5>
-<h5>Careers</h5>
+<h6>About</h6>
+<h6>Careers</h6>
 </Col>
 
 
@@ -72,6 +73,7 @@ crypto collectibles and non-fungible tokens (NFTs).
 
 
         </Row>
+        </div>
 
         </div>
     </div>

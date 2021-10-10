@@ -168,7 +168,7 @@ display: flex;
   width: 90%;
   justify-content: center;
   align-content  : center;
-  text-align     : center;
+ 
   margin-left    : 65px;
 
 
@@ -194,6 +194,9 @@ address{
   justify-content: left;
   height: auto;
   color: aliceblue;
+  text-align: left;
+  align-content: flex-start;
+  font-weight: 100;
 }
 .dark_color{
   color: black !important;
@@ -202,5 +205,11 @@ address{
   height:100%;
   width: 100%;
   margin-top: 70px;
+
+}
+.f_lower_row
+
+{
+
 
 }
