@@ -59,7 +59,7 @@ function App() {
   <n.NavDropdown.Item href="#Trading cards">Trading cards</n.NavDropdown.Item>
 </n.NavDropdown></h1>
   
-  <div class="row">
+  <div class="row-nft">
   <div class="column"><div><img src='assets/images/wallet.svg'  /></div>Once you’ve set up your wallet of choice, connect it to OpenSea by clicking the wallet icon in the top right corner. Learn about the</div>
   <div class="column"><div><img src='assets/images/collection.svg'  /></div>Click My Collections and set up your collection. Add social links, a description, profile & banner images, and set a secondary sales fee.</div>
   <div class="column"><div><img src='assets/images/nft.svg'  /></div>Upload your work (image, video, audio, or 3D art), add a title and description, and customize your NFTs with properties, stats, and unlockable content.</div>
