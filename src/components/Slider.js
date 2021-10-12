@@ -25,6 +25,8 @@ class Slidr extends React.Component {
                 slidesToShow: 2,
                 slidesToScroll: 1,
                 infinite: true,
+                arrows:true,
+
                 dots: true
               }
             },
@@ -33,14 +35,17 @@ class Slidr extends React.Component {
               settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
-                initialSlide: 2
+                initialSlide: 2,
+                arrows:true
               }
             },
             {
               breakpoint: 480,
               settings: {
                 slidesToShow: 1,
+                arrows:true,
                 slidesToScroll: 1
+
               }
             }
           ]

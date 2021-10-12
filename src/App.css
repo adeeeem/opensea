@@ -12,7 +12,6 @@ body {
   font-family: Poppins, sans-serif;
   color: rgb(53, 56, 64);
   box-sizing: border-box;
-  display: flex;
   background-size: cover;
   background-color: rgb(255, 255, 255);
 
@@ -85,7 +84,7 @@ flex-direction: column;
 -webkit-box-align: center;
 align-items: left;
 margin-top: .5cm;
-margin-left: 1cm;
+
 
 padding: 30px 20px 20px;
 }

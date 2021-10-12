@@ -21,7 +21,7 @@ function App() {
  
   return (
     <>
-    <Container>
+   
       <Header />
       <Row xs="auto">
         <Col  xs={1} sm="auto" md="auto" lg={5}>
@@ -82,7 +82,7 @@ function App() {
   <Catagory/>
   
       <Footer/>
-      </Container>
+      
     </>
   );
 
