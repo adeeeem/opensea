@@ -23,8 +23,8 @@ function App() {
     <>
    
       <Header />
-      <Row xs="auto">
-        <Col  xs={1} sm="auto" md="auto" lg={5}>
+      <Row >
+        <Col  xs="auto" sm="auto" md="auto" lg={5}>
           <div class="style1">
             <h1 class="style2">Discover, collect, and sell extraordinary   NFTs</h1>
             <span class="style3">
@@ -33,7 +33,7 @@ function App() {
             <Buton />
           </div>
         </Col >
-        <Col   xs={1} sm="auto" md="auto" lg={7}>
+        <Col   xs="auto" sm="auto" md="auto" lg={7}>
           <Crd image="assets/images/card.png" desc="miss you japan" a="left" height={394}  
 
           />
