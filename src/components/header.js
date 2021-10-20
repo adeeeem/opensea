@@ -6,7 +6,7 @@ export default function Header() {
   return (
 
 
-    <n.Navbar bg="light" expand="xl" className="s">
+    <n.Navbar bg="light" expand="sm" className="s">
       <n.Navbar.Brand href="#"><img src='assets/images/opensea.svg' height="30" width="41" alt='OpenSea' />OpenSea</n.Navbar.Brand>
       <n.Navbar.Toggle aria-controls="navbarScroll" />
       <n.Navbar.Collapse id="navbarScroll">
